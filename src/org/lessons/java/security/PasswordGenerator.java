@@ -17,6 +17,9 @@ public class PasswordGenerator {
         int monthOfBirth=scan.nextInt();
         System.out.println("Inserisci l'anno di nascita(numero): ");
         int yearOfBirth=scan.nextInt();
+        int sommaDatiNascita=dayOfBirth+monthOfBirth+yearOfBirth;
+        String password=name+"-"+surname+"-"+FavouriteColor+"-"+sommaDatiNascita;
+        System.out.println(password);
 
 
     }
