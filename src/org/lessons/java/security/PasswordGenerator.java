@@ -22,5 +22,6 @@ public class PasswordGenerator {
         System.out.println(password);
 
 
+
     }
 }
